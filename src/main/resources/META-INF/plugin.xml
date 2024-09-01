@@ -1,0 +1,15 @@
+<idea-plugin>
+    <id>sql-to-mybatisplus-java</id>
+    <name>Sql To Mybatisplus(java)</name>
+    <description>Please make sure to provide the description in English</description>
+    <vendor>
+        cloudcodec
+    </vendor>
+    <actions>
+        <action id="com.github.cloudcodec.mybatisplus.intellij.GenerateAction"
+                class="com.github.cloudcodec.mybatisplus.intellij.GenerateAction"
+                text="Generate MybatisPlus">
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>
